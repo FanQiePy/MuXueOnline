@@ -1,0 +1,8 @@
+*.pyc
+__pycache__
+venv
+db.sqlite3
+.DS_Store
+.idea
+apache_django_wsgi.conf
+log

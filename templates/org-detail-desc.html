@@ -1,0 +1,16 @@
+{% extends 'org_base.html' %}
+{% load staticfiles %}
+{% block title %}机构介绍{% endblock %}
+{% block current_path %}机构介绍{% endblock %}
+{% block content %}
+    <!-- 机构介绍 -->
+    <div class="right companycenter layout" >
+        <div class="head">
+            <h1>机构介绍</h1>
+            <a class="green fr more" href="">查看更多  >  </a>
+        </div>
+        <div class="cont">
+            <P>{{ org.desc }}</P>
+        </div>
+    </div>
+{% endblock %}
