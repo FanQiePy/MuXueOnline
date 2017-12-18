@@ -94,12 +94,12 @@ AUTH_USER_MODEL = 'MyUser.UserProfile'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'LISTIUPY',
-        'USER': 'lvbiaobiao',
-        'PASSWORD': '123qwe',
-        'HOST': 'localhost',
-        'PORT': '3306',
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': 'MuXue',
+        'USER': '',
+        'PASSWORD': '',
+        'HOST': '',
+        'PORT': '',
     }
 }
 
